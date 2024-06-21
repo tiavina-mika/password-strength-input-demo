@@ -6,5 +6,5 @@ A repo to see and test `password-strength-input` features
 <br />
 [npm](https://www.npmjs.com/package/password-strength-input)
 <br />
-[live demo]([https://mui-tiptap-editor.netlify.app/](https://password-strength-input.netlify.app))
+[Live demo](https://password-strength-input.netlify.app)
 
