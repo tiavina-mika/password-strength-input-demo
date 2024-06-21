@@ -12,24 +12,27 @@ const App = () => {
         <form>
           <PasswordStrengthInput
             className="border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-            options={{
-              tooWeak: {
-                label: "Too weak 1",
-                color: "red",
-              },
-              weak: {
-                label: "Weak 1",
-                color: "yellow",
-              },
-              medium: {
-                label: "Medium 1",
-                color: "green",
-              },
-              strong: {
-                label: "Strong 1",
-                color: "blue",
-              },
-            }}
+            /*
+              * decomment if overriding error labels and bar colors
+            */
+            // options={{
+            //   tooWeak: {
+            //     label: "Too weak 1",
+            //     color: "red",
+            //   },
+            //   weak: {
+            //     label: "Weak 1",
+            //     color: "yellow",
+            //   },
+            //   medium: {
+            //     label: "Medium 1",
+            //     color: "green",
+            //   },
+            //   strong: {
+            //     label: "Strong 1",
+            //     color: "blue",
+            //   },
+            // }}
           />
         </form>
       </div>
